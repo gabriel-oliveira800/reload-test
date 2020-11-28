@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.187" height="46" viewBox="0 0 45.187 46">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a54df"/>
+            <stop offset=".505" stop-color="#2b9fdb"/>
+            <stop offset="1" stop-color="#15d4d8"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="graph" transform="translate(-2.509)">
+        <path id="Caminho_9967" d="M124.141 134.682h-7.617a1.54 1.54 0 0 0-1.54 1.54v21.069a1.54 1.54 0 0 0 1.54 1.54h7.617a1.54 1.54 0 0 0 1.54-1.54v-21.069a1.54 1.54 0 0 0-1.54-1.54z" class="cls-1" transform="translate(-94.246 -112.854)"/>
+        <path id="Caminho_9968" d="M224.479 69.682h-7.617a1.54 1.54 0 0 0-1.54 1.54v31.6a1.54 1.54 0 0 0 1.54 1.54h7.617a1.54 1.54 0 0 0 1.54-1.54v-31.6a1.54 1.54 0 0 0-1.54-1.54z" class="cls-1" transform="translate(-178.323 -58.389)"/>
+        <path id="Caminho_9969" d="M23.8 176.831h-7.615a1.54 1.54 0 0 0-1.54 1.54v14.262a1.54 1.54 0 0 0 1.54 1.54H23.8a1.54 1.54 0 0 0 1.54-1.54v-14.262a1.54 1.54 0 0 0-1.54-1.54z" class="cls-1" transform="translate(-10.169 -148.172)"/>
+        <path id="Caminho_9970" d="M33.445 2.948L27.735.236a2.431 2.431 0 0 0-2.085 4.392l.464.221-21.989 7.826a2.431 2.431 0 1 0 1.63 4.581l21.906-7.8-.167.352a2.431 2.431 0 1 0 4.392 2.092L34.6 6.187a2.431 2.431 0 0 0-1.155-3.239z" class="cls-1"/>
+    </g>
+</svg>

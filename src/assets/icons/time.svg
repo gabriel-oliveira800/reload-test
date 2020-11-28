@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.777" height="50.327" viewBox="0 0 39.777 50.327">
+    <defs>
+        <linearGradient id="e8nendgzsa" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a54df"/>
+            <stop offset="1" stop-color="#15d4d8"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <path fill="url(#e8nendgzsa)" d="M0 30.16A19.841 19.841 0 1 1 19.841 50 19.864 19.864 0 0 1 0 30.16zm19.45 2.74h9.39a1.676 1.676 0 1 0 0-3.353h-7.825V17.584a1.677 1.677 0 0 0-3.353 0v13.637a1.677 1.677 0 0 0 1.676 1.679h.056zm16.771-19.4v-.8l2.2-2.989h-2.2v-.879h3.506v.8l-2.205 3h2.255v.868zM25.655 4.343v-.806L27.86.548h-2.2v-.875h3.507v.8l-2.2 3h2.243v.875z" transform="translate(-1188 -115.455) translate(1188 115.782)"/>
+        <text fill="#fff" font-family="ProximaNova-Bold, Proxima Nova" font-size="7px" font-weight="700" transform="translate(-1188 -115.455) translate(1214.065 137.736)">
+            <tspan x="0" y="0">Z</tspan>
+        </text>
+    </g>
+</svg>

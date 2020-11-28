@@ -1,0 +1,17 @@
+.line {
+    width: 50%;
+    height: 5px;
+
+    border-radius: 5px;
+    margin: 6px 16px;
+
+    background-image: linear-gradient(83deg, var(--primary-gradient-color) 5%, var(--secondary-gradient-color) 50%);
+    transition: all .2s;
+}
+
+@media(min-width: 640px){
+    .line {
+        width: 65%;
+        margin: 3px 0;
+    }
+}
