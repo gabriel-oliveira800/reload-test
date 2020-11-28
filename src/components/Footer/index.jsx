@@ -1,11 +1,13 @@
 import React from 'react';
 
+import DefaultButton from '../Button';
+
 import './style.css';
 
 function Footer() {
   return (
     <footer>
-      <h1>Reload</h1>
+      <DefaultButton label="OK" />
     </footer>
   );
 }
