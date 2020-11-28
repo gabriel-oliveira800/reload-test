@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Retângulo_61" d="M0 0H16V10H0z" class="cls-1" transform="translate(0 890)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="Grupo_de_máscara_13" clip-path="url(#clip-path)" transform="rotate(180 8 450)">
+        <path id="right-arrow" d="M9.577 253.461a.5.5 0 0 0-.717.71l3.634 3.634H.5a.5.5 0 0 0-.5.5.5.5 0 0 0 .5.509h11.994l-3.634 3.629a.515.515 0 0 0 0 .717.5.5 0 0 0 .717 0l4.495-4.495a.494.494 0 0 0 0-.71z" class="cls-1" transform="translate(.889 636.69)"/>
+    </g>
+</svg>

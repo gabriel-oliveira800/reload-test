@@ -1,0 +1,135 @@
+header {
+    min-width: 375px;
+    height: 68px;
+
+    padding: 16px 17px 19px 16.1px;
+
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: linear-gradient(102deg, var(--primary-gradient-color) 26%, var(--secondary-gradient-color) 100%);
+    transition: all .2s;
+}
+
+.back {
+    display: none;
+}
+
+.back .icon {
+    width: 16px;
+    height: 10px;
+    margin: 0 8px;
+    object-fit: contain
+}
+
+.back a {
+    font-size: 18px;
+    line-height: 1.17; 
+    
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color:  var(--white-color);
+}
+
+.header-logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo img {
+    padding-right: 8px;
+}
+
+.header-logo .header-liner {
+    width: 1px;
+    height: 17px;
+    border: 1px solid var(--white-color);
+}
+
+.header-logo h1 {
+    padding-left: 8px;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.header-button {
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+
+.header-info {
+    display: none;
+}
+
+.header-info .info-user {
+    padding-right: 8px;
+
+    font-size: 16px;
+    line-height: 1;
+    color: var(--white-color);
+    text-align: right;
+
+}
+
+.header-info .info-user p {
+    font-weight: 300;
+}
+
+.locale-items {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.locale {
+    width: 33px;
+    height: 33px;
+
+    padding: 2px;
+    margin-right: 6px;
+
+    border-radius: 50%;
+    border: solid 1px var(--border-color);
+    background-color: var(--white-color); 
+}
+
+
+.arrow-down {
+    width: 12px;
+    height: 12px;
+}
+
+@media(min-width: 640px){
+    .header-button {
+        width: 240px;
+    }
+
+    .header-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+}
+
+@media(min-width: 690px){
+    .back {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

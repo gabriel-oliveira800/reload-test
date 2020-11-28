@@ -24,6 +24,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body, #root {
+    width: 100%;
+    height: 100%;
+}
+
 html, button, input {
     font-family: 'Roboto', sans-serif;
 }
