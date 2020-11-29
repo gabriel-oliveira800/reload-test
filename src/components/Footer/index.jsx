@@ -4,12 +4,10 @@ import DefaultButton from '../Button';
 
 import './style.css';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <DefaultButton label="OK" />
     </footer>
   );
 }
-
-export default Footer;

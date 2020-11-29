@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-function ItemRigth({ item, hisMaxItems = false }) {
+export default function ItemRigth({ item, hisMaxItems = false }) {
     const itemDisable = hisMaxItems && !item.selected;
 
     const sourceIcon = itemDisable ? item.disableIcon :
@@ -28,5 +28,3 @@ function ItemRigth({ item, hisMaxItems = false }) {
         </div>
     );
 }
-
-export default ItemRigth;

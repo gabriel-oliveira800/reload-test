@@ -2,22 +2,20 @@
     width: 160px;
     height: 60px;
 
-    padding: 17px;
     border: none;
     outline: none;
-    text-decoration: none;
-    border-radius: 80px;
+
+    padding: 17px;
+    border-radius: 30px;
     cursor: pointer;
 
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.17;
-    letter-spacing: normal;
+    line-height: 17px;
     text-align: center;
     color: var(--white-color);
 
     box-shadow: 0 8px 10px 0 var( --button-shadow-color);
-    
     background: linear-gradient(24deg, var(--primary-gradient-color) -44%, var(--secondary-gradient-color) 79%);
 }
 

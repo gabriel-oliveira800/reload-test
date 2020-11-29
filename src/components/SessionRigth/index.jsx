@@ -4,7 +4,7 @@ import ItemRigth from '../ItemRigth';
 
 import './style.css';
 
-function SessionRigth({ items }) {
+export default function SessionRigth({ items }) {
   return (
     <section className="container-rigth">
       <h2>Health goals</h2>
@@ -20,5 +20,3 @@ function SessionRigth({ items }) {
     </section>
   );
 }
-
-export default SessionRigth;

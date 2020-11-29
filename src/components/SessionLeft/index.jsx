@@ -1,13 +1,13 @@
 import React from 'react';
 
+import ItemLeft from '../ItemLeft';
+
 import './style.css';
 
-function SessionLeft() {
+export default function SessionLeft() {
   return (
     <section className="container-left">
-      <div className="content">
-
-      </div>
+      <ItemLeft/>
 
       <ul className="level-wrraper" >
         <li className="level-item">
@@ -27,5 +27,3 @@ function SessionLeft() {
     </section>
   );
 }
-
-export default SessionLeft;

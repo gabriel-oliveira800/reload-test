@@ -1,0 +1,49 @@
+.wrraper-left {
+    width: 400px;
+    height: 400px;
+
+    padding: 12px;
+    position: absolute;
+    top: 0;
+
+    border-radius: 50%;
+    border: 2px dotted var(--secondary-gradient-color);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-left {
+    width: 300px;
+    height: 300px;
+
+    padding: 12px;
+    position: absolute;
+    top: 50px;
+
+    border-radius: 50%;
+    border: 2px dotted var(--primary-gradient-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 2px dotted var(--text-title-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-icon {
+    width: 160px;
+    height: 160px;
+}

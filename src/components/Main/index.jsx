@@ -12,7 +12,7 @@ import data from '../../data';
 
 import './style.css';
 
-function Main() {
+export default function Main() {
   return (
     <main>
       <div className="container-link">
@@ -31,9 +31,6 @@ function Main() {
           <SessionRigth items={data} />
         </div>
       </section>
-
     </main>
   );
 }
-
-export default Main;

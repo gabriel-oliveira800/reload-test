@@ -8,7 +8,7 @@ import { ReactComponent as ArrowBack } from '../../assets/icons/arrow_back.svg';
 
 import './style.css';
 
-function Header() {
+export default function Header() {
   return (
     <header >
       <div className="back">
@@ -42,5 +42,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
