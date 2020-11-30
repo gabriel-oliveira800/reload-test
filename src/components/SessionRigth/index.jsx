@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import ItemRigth from '../ItemRigth';
+
+import Context from '../Main/context';
 
 import './style.css';
 
 export default function SessionRigth({ items }) {
+  const { data } = useContext(Context);
+
   return (
     <section className="container-rigth">
       <h2>Health goals</h2>
@@ -12,8 +16,11 @@ export default function SessionRigth({ items }) {
 
       <ul className="list-item">
         {items.map(item => {
-          return <li key={item.id}>
-            <ItemRigth item={item} hisMaxItems={false} />
+          return <li key={item.id} >
+            <ItemRigth
+              item={item}
+              hisMaxItems={data.length >= 5}
+            />
           </li>
         })}
       </ul>

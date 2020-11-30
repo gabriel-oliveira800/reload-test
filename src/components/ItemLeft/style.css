@@ -8,6 +8,7 @@
 
     border-radius: 50%;
     border: 2px dotted var(--secondary-gradient-color);
+    
     cursor: pointer;
 
     display: flex;
@@ -19,12 +20,11 @@
     width: 300px;
     height: 300px;
 
-    padding: 12px;
     position: absolute;
     top: 50px;
 
     border-radius: 50%;
-    border: 2px dotted var(--primary-gradient-color);
+    border: 2px dotted var(--border-item-color);
 
     display: flex;
     align-items: center;
@@ -36,14 +36,146 @@
     height: 200px;
 
     border-radius: 50%;
-    border: 2px dotted var(--text-title-color);
+    border: 2px dotted var(--primary-gradient-color);
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    z-index: 100;
 }
 
-.item-icon {
+.center-icon {
     width: 160px;
     height: 160px;
 }
+
+.wrraper-left.finish {
+    background-color: var(--secondary-gradient-color);
+}
+
+.wrraper-left.finish .item-left {
+    background-color: var(--border-item-color);
+}
+
+.wrraper-left.finish .center-item {
+    background-color: var(--primary-gradient-color); 
+}
+
+.item-box {
+    width: 55px;
+    height: 55px;
+
+    padding: 8px;
+    position: relative;
+
+    opacity: 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 1000;
+}
+
+.item-box .item-close {
+    width: 12px;
+    height: 12px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item-box .item-icon {
+    width: 48px;
+    height: 48px;
+
+    margin-top: 8px;
+}
+
+.item-box .item-icon path {
+    fill:var(--primary-gradient-color);
+}
+
+.item-box.one {
+    position: absolute;
+    left: -52px;
+    
+}
+
+.item-box.one .item-close {
+    left: -4px;
+}
+
+.item-box.two {
+    position: absolute;
+    top: 238px;
+    
+}
+
+.item-box.two .item-close {
+    left: 4px;
+}
+
+.item-box.three {
+    position: absolute;
+    top: -6px;
+    
+}
+
+.item-box.three .item-close {
+    left: 4px;
+}
+
+.item-box.four {
+    position: absolute;
+    right: -4px;
+    
+}
+
+.item-box.five {
+    position: absolute;
+    left: 0;
+    
+}
+
+.item-box.six {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+
+    transform: rotate(2deg);
+}
+
+.item-box.six .item-close {
+    top: -4px;
+    right: 12px;
+}
+
+.item-box.seven {
+    position: absolute;
+    top: -16px;
+    right: 16px;
+}
+
+
+.item-box.eight {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+}
+
+.item-box.eight .item-close {
+    left: 8px;
+}
+
+/* .item-box.one, .item-box.two, .item-box.three,
+.item-box.four, .item-box.five,  .item-box.seven, 
+.item-box.six, .item-box.eight {
+    opacity: 0;
+} */
+
+
+

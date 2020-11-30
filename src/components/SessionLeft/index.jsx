@@ -8,7 +8,6 @@ export default function SessionLeft() {
   return (
     <section className="container-left">
       <ItemLeft/>
-
       <ul className="level-wrraper" >
         <li className="level-item">
           <div className="item"></div>

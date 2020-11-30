@@ -38,7 +38,7 @@ const items = [
     {
         id: 0,
         icon: Battery,
-        selected: true,
+        selected: false,
         unselectedIcon: BatterySelected,
         disableIcon: BatteryDisable,
         description: "Increase energy"
@@ -46,7 +46,7 @@ const items = [
     {
         id: 1,
         icon: Star,
-        selected: true,
+        selected: false,
         disableIcon: StarDisable,
         unselectedIcon: StarSelected,
         description: "Boost performance"
@@ -54,14 +54,14 @@ const items = [
     {
         id: 2,
         icon: Face,
-        selected: true,
+        selected: false,
         unselectedIcon: FaceSelected,
         disableIcon: FaceDisable,
         description: "Enhance beauty"
     },
     {
         id: 3,
-        selected: true,
+        selected: false,
         icon: PersonSppinnig,
         unselectedIcon: PersonSppinnigSelected,
         disableIcon: PersonSppinnigDisable,
@@ -70,7 +70,7 @@ const items = [
     {
         id: 4,
         icon: Lung,
-        selected: true,
+        selected: false,
         unselectedIcon: LungSelected,
         disableIcon: LungDisable,
         description: "Upgrade digestion"
