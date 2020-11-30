@@ -38,7 +38,6 @@ const items = [
     {
         id: 0,
         icon: Battery,
-        selected: false,
         unselectedIcon: BatterySelected,
         disableIcon: BatteryDisable,
         description: "Increase energy"
@@ -46,7 +45,6 @@ const items = [
     {
         id: 1,
         icon: Star,
-        selected: false,
         disableIcon: StarDisable,
         unselectedIcon: StarSelected,
         description: "Boost performance"
@@ -54,14 +52,12 @@ const items = [
     {
         id: 2,
         icon: Face,
-        selected: false,
         unselectedIcon: FaceSelected,
         disableIcon: FaceDisable,
         description: "Enhance beauty"
     },
     {
         id: 3,
-        selected: false,
         icon: PersonSppinnig,
         unselectedIcon: PersonSppinnigSelected,
         disableIcon: PersonSppinnigDisable,
@@ -70,7 +66,6 @@ const items = [
     {
         id: 4,
         icon: Lung,
-        selected: false,
         unselectedIcon: LungSelected,
         disableIcon: LungDisable,
         description: "Upgrade digestion"
@@ -78,7 +73,6 @@ const items = [
     {
         id: 5,
         icon: Brain,
-        selected: false,
         disableIcon: BrainDisable,
         unselectedIcon: BrainSelected,
         description: "Enhance cognition"
@@ -86,7 +80,6 @@ const items = [
     {
         id: 6,
         icon: ThreeFace,
-        selected: false,
         disableIcon: ThreeFaceDisable,
         unselectedIcon: ThreeFaceSelected,
         description: "Optmize mood"
@@ -94,7 +87,6 @@ const items = [
     {
         id: 7,
         icon: Heart,
-        selected: false,
         unselectedIcon: HeartSelected,
         disableIcon: HeartDisable,
         description: "Promote longevity"
@@ -102,7 +94,6 @@ const items = [
     {
         id: 8,
         icon: Time,
-        selected: false,
         unselectedIcon: TimeSelected,
         disableIcon: TimeDisable,
         description: "Improve sleep"

@@ -56,22 +56,17 @@ section {
     position: relative;
 }
 
+main.completed {
+    width: 100%;
+    background-image: url("../../assets/images/image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 60% 40%;
+}
+
 @media(min-width: 690px) {
     main {
         padding: 0;
-    }
-
-    .container-items {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
-        padding: 0 12px;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
     }
 
     .container-link {
@@ -103,8 +98,26 @@ section {
 
 @media(min-width: 940px) {
     .container-items {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 0 12px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-items {
         padding-left: 160px;
     
+    }
+
+    .section-header {
+        align-items: center;
+        justify-content: center;
     }
     .section-header img {
         width: 36px;

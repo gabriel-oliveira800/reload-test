@@ -13,6 +13,15 @@
     --secondary-gradient-color: #15d4d8;
     --button-shadow-color-ligth:  #eaf0f7;
     --primary-gradient-color-ligth: #4eafe1;
+
+    --finish-gradient-first: linear-gradient(to bottom, #15d4d8, #1bc4d9 77%, #2b9fdb);
+    --finish-gradient-center: linear-gradient(to bottom, #2b9fdb, #2b9fdb 82%, #4a54df);
+    --finish-gradient-last: linear-gradient(to bottom, #2b9fdb, #4858df 31%, #4a54df);
+    
+    --completed-first-color: #19CBD9;
+    --completed-center-color: #2B9FDB;
+    --completed-last-color:  #4858df;
+    
 }
 
 * {

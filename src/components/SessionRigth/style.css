@@ -45,6 +45,10 @@
     transition: all .2s;
 }
 
+.container-rigth.completed {
+    display: none;
+}
+
 @media(min-width: 640px){
     .container-rigth h2 {
         font-size: 24px;
@@ -66,9 +70,21 @@
     
 }
 
+@media(min-width: 700px) {
+    .container-rigth {
+        padding: 0 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+
 @media(min-width:  750px){
     .list-item {
         max-width: 350px;
         gap: 4px;
     }
 }
+
