@@ -8,7 +8,7 @@ import { ReactComponent as ThreeFace } from '../../assets/icons/three_face.svg';
 import { ReactComponent as Heart } from '../../assets/icons/heart.svg';
 import { ReactComponent as Time } from '../../assets/icons/time.svg';
 
-export default [
+const icons =  [
     {
         id: 0,
         nameClass: "one",
@@ -55,3 +55,5 @@ export default [
         icon: <Time className="item-icon" />,
     }
 ]
+
+export default icons;
